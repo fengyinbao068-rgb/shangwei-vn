@@ -4,14 +4,21 @@ Public Vietnamese landing page for Shangwei industrial ventilation fans (axial /
 
 **Not wind turbines.**
 
-## Live URLs
+## Live URLs (public now)
 
-- GitHub Pages (preferred): https://fengyinbao068-rgb.github.io/shangwei-vn/
-- Repo: https://github.com/fengyinbao068-rgb/shangwei-vn
-- Raw fallback: https://raw.githubusercontent.com/fengyinbao068-rgb/shangwei-vn/main/index.html
+| Type | URL |
+|------|-----|
+| Repo | https://github.com/fengyinbao068-rgb/shangwei-vn |
+| Raw HTML | https://raw.githubusercontent.com/fengyinbao068-rgb/shangwei-vn/main/index.html |
+| Browser preview (rendered) | https://htmlpreview.github.io/?https://raw.githubusercontent.com/fengyinbao068-rgb/shangwei-vn/main/index.html |
+| GitHub Pages (after one Settings click) | https://fengyinbao068-rgb.github.io/shangwei-vn/ |
 
-## Contact
+To enable Pages: repo **Settings → Pages → Source = GitHub Actions** (or branch `main` / root), then re-run the failed **Deploy GitHub Pages** workflow once.
 
-- WhatsApp inbound: https://wa.me/8615373545916
+## Contact (inbound only)
+
+- WhatsApp: https://wa.me/8615373545916
 - Email: fengyinbao068@gmail.com
 - Official site: https://www.china-shangwei.com/
+
+No prices on page. No Facebook. No WhatsApp mass-add.
