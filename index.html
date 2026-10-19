@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quạt thông gió công nghiệp Shangwei | Đại lý &amp; MEP Việt Nam</title>
+  <meta name="description" content="Nhà máy quạt hướng trục, ly tâm, quạt nóc, hút khói PCCC Trung Quốc. Hỗ trợ đại lý và nhà thầu MEP tại Việt Nam — catalogue + tư vấn chọn quạt theo dự án. Liên hệ WhatsApp / email.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Shangwei — Quạt thông gió công nghiệp (không phải turbine gió)">
+  <meta property="og:description" content="Nhà máy quạt hướng trục, ly tâm, quạt nóc, hút khói. Hỗ trợ đại lý &amp; MEP Việt Nam. Catalogue + chọn model theo dự án.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <link rel="canonical" href="https://fengyinbao068-rgb.github.io/shangwei-vn/">
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --ink: #1a2332;
+      --muted: #5a6577;
+      --brand: #0b5cab;
+      --brand-dark: #084a8a;
+      --accent: #0d9488;
+      --accent-dark: #0f766e;
+      --line: #e2e8f0;
+      --warn: #b45309;
+      --radius: 12px;
+      --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    a { color: var(--brand); }
+    .wrap { width: min(960px, 92vw); margin: 0 auto; }
+    .topbar {
+      background: var(--ink);
+      color: #fff;
+      font-size: 0.9rem;
+      padding: 0.55rem 0;
+    }
+    .topbar .wrap { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; justify-content: space-between; align-items: center; }
+    .topbar a { color: #fff; text-decoration: none; font-weight: 600; }
+    .topbar a:hover { text-decoration: underline; }
+    header.hero {
+      background: linear-gradient(145deg, #0b5cab 0%, #0e7490 55%, #0f766e 100%);
+      color: #fff;
+      padding: 2.5rem 0 2.75rem;
+    }
+    header.hero h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.45rem, 4vw, 2rem);
+      line-height: 1.25;
+      font-weight: 800;
+    }
+    header.hero p { margin: 0 0 0.85rem; font-size: 1.05rem; opacity: 0.96; max-width: 42rem; }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.35);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.35rem; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 0.4rem;
+      padding: 0.85rem 1.2rem;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-wa { background: #25d366; color: #05361a; }
+    .btn-wa:hover { background: #1ebe57; }
+    .btn-mail { background: #fff; color: var(--brand-dark); }
+    .btn-mail:hover { background: #e8f1fb; }
+    .btn-site { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.7); }
+    .btn-site:hover { background: rgba(255,255,255,0.12); }
+    .btn-outline {
+      background: #fff;
+      color: var(--brand);
+      border: 2px solid var(--brand);
+    }
+    .btn-outline:hover { background: #eef5fc; }
+    .en-note {
+      margin-top: 1.25rem;
+      padding: 0.85rem 1rem;
+      background: rgba(0,0,0,0.18);
+      border-radius: var(--radius);
+      font-size: 0.92rem;
+      max-width: 42rem;
+    }
+    section { padding: 2.25rem 0; }
+    section h2 {
+      margin: 0 0 1rem;
+      font-size: 1.45rem;
+      color: var(--ink);
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.15rem 1.2rem;
+      box-shadow: var(--shadow);
+    }
+    .card h3 { margin: 0 0 0.55rem; font-size: 1.1rem; color: var(--brand-dark); }
+    .card p { margin: 0 0 0.75rem; color: var(--muted); font-size: 0.95rem; }
+    .card ul { margin: 0 0 0.9rem; padding-left: 1.15rem; color: var(--ink); font-size: 0.95rem; }
+    .card .mini-cta { font-size: 0.9rem; font-weight: 600; color: var(--accent-dark); }
+    .apps ul { margin: 0; padding-left: 1.2rem; }
+    .apps li { margin-bottom: 0.4rem; }
+    .split {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .trust-list { list-style: none; padding: 0; margin: 0; }
+    .trust-list li {
+      background: var(--card);
+      border-left: 4px solid var(--brand);
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.65rem;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      box-shadow: var(--shadow);
+    }
+    .contact-band {
+      background: #0f172a;
+      color: #fff;
+      padding: 2rem 0;
+    }
+    .contact-band h2 { color: #fff; margin-top: 0; }
+    .contact-band p { color: #cbd5e1; }
+    .contact-band a { color: #7dd3fc; }
+    .contact-links {
+      display: grid;
+      gap: 0.75rem;
+      margin: 1.25rem 0;
+    }
+    .contact-links a.big {
+      display: block;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      padding: 0.95rem 1.1rem;
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+    }
+    .contact-links a.big:hover { background: rgba(255,255,255,0.14); }
+    .contact-links span.label { display: block; font-size: 0.8rem; color: #94a3b8; font-weight: 500; margin-bottom: 0.2rem; }
+    details.faq {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.65rem;
+    }
+    details.faq summary {
+      font-weight: 700;
+      cursor: pointer;
+      color: var(--ink);
+    }
+    details.faq p { margin: 0.65rem 0 0; color: var(--muted); }
+    footer {
+      padding: 1.75rem 0 2.5rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      background: #fff;
+    }
+    footer strong { color: var(--ink); }
+    .sticky-cta {
+      position: sticky;
+      bottom: 0;
+      z-index: 20;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(8px);
+      border-top: 1px solid var(--line);
+      padding: 0.65rem 0;
+      box-shadow: 0 -6px 20px rgba(15,23,42,0.08);
+    }
+    .sticky-cta .wrap { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .sticky-cta .btn { flex: 1 1 140px; padding: 0.75rem 1rem; font-size: 0.95rem; }
+    .warn-box {
+      background: #fff7ed;
+      border: 1px solid #fdba74;
+      color: #9a3412;
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius);
+      font-size: 0.92rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <span>Shangwei / 上为机电 — quạt thông gió công nghiệp</span>
+      <span>
+        <a href="https://wa.me/8615373545916">WhatsApp</a> ·
+        <a href="mailto:fengyinbao068@gmail.com">Email</a> ·
+        <a href="https://www.china-shangwei.com/" rel="noopener">Website</a>
+      </span>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="badge">Nhà máy Trung Quốc · Đại lý &amp; MEP Việt Nam</div>
+      <h1>Quạt thông gió công nghiệp Shangwei — Nhà máy Trung Quốc hỗ trợ đại lý &amp; nhà thầu MEP Việt Nam</h1>
+      <p>Shangwei (Thượng Vi điện cơ) sản xuất quạt thông gió công nghiệp: <strong>hướng trục, ly tâm, quạt nóc, hút khói</strong>. Chúng tôi hỗ trợ <strong>đại lý, nhà phân phối và nhà thầu HVAC/MEP</strong> tại Việt Nam bằng catalogue và tư vấn chọn model theo dự án.</p>
+      <p><strong>Không phải turbine gió / điện gió.</strong></p>
+      <p><strong>Gửi thông số hoặc bản vẽ → nhận catalogue + tư vấn chọn quạt.</strong></p>
+      <div class="cta-row">
+        <a class="btn btn-wa" href="https://wa.me/8615373545916">Chat WhatsApp (bạn mở)</a>
+        <a class="btn btn-mail" href="mailto:fengyinbao068@gmail.com?subject=Shangwei%20-%20Catalogue%20qu%E1%BA%A1t%20c%C3%B4ng%20nghi%E1%BB%87p">Gửi email</a>
+        <a class="btn btn-site" href="https://www.china-shangwei.com/" rel="noopener" target="_blank">china-shangwei.com</a>
+      </div>
+      <div class="en-note">
+        <strong>English:</strong> Shangwei manufactures <em>industrial ventilation fans</em> (axial, centrifugal, roof, smoke exhaust) — <strong>not wind turbines</strong>. Vietnam dealers &amp; HVAC/MEP contractors: send specs or drawings for catalogue + model selection. WhatsApp inbound: <a href="https://wa.me/8615373545916" style="color:#fff">wa.me/8615373545916</a> · <a href="mailto:fengyinbao068@gmail.com" style="color:#fff">fengyinbao068@gmail.com</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="san-pham">
+    <div class="wrap">
+      <h2>Bốn dòng sản phẩm</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Quạt hướng trục công nghiệp</h3>
+          <p>Phù hợp thông gió nhà xưởng, kho, nhà bếp công nghiệp cần lưu lượng lớn, lắp ống hoặc tường. Shangwei cung cấp nhiều cỡ và cấu hình theo yêu cầu dự án.</p>
+          <ul>
+            <li>Thông gió nhà xưởng / kho</li>
+            <li>Hút khí bếp công nghiệp (khi đúng model)</li>
+            <li>Lắp đặt linh hoạt theo bản vẽ HVAC</li>
+          </ul>
+          <p class="mini-cta">Gửi lưu lượng (m³/h), áp suất, điện áp → tư vấn model hướng trục</p>
+        </article>
+        <article class="card">
+          <h3>Quạt ly tâm công nghiệp</h3>
+          <p>Dùng khi cần áp suất cao hơn, hệ ống gió dài, lọc bụi / xử lý khí, hoặc tủ gió điều hòa. Có dòng đa cánh, cao áp và cấu hình theo thông số.</p>
+          <ul>
+            <li>Hệ thống ống gió / lọc bụi công nghiệp</li>
+            <li>Tủ gió / AHU phụ trợ (theo model)</li>
+            <li>Áp suất và lưu lượng theo dự án</li>
+          </ul>
+          <p class="mini-cta">Gửi đường đặc tính hoặc bản vẽ → chọn quạt ly tâm phù hợp</p>
+        </article>
+        <article class="card">
+          <h3>Quạt nóc (rooftop) thông gió</h3>
+          <p>Lắp mái nhà xưởng, nhà kho, nhà để xe — đẩy khí nóng / khí thải lên cao. Hỗ trợ chọn theo diện tích mái và lưu lượng cần thiết.</p>
+          <ul>
+            <li>Thông gió mái nhà xưởng</li>
+            <li>Giảm nhiệt tầng trên</li>
+            <li>Xuất xưởng đóng gói xuất khẩu</li>
+          </ul>
+          <p class="mini-cta">Gửi kích thước mái / lưu lượng → catalogue quạt nóc</p>
+        </article>
+        <article class="card">
+          <h3>Quạt hút khói — bếp công nghiệp &amp; PCCC</h3>
+          <p>Dòng hút khói cho nhà bếp công nghiệp và các ứng dụng hút khói / tăng áp theo yêu cầu kỹ thuật dự án. Chỉ nêu tính năng đã xác minh trên catalogue.</p>
+          <ul>
+            <li>Hút khói bếp công nghiệp</li>
+            <li>Hỗ trợ dự án PCCC / hút khói (theo thông số đã chốt)</li>
+            <li>Làm việc với nhà thầu MEP trên bản vẽ</li>
+          </ul>
+          <p class="mini-cta">Gửi yêu cầu PCCC hoặc bản vẽ bếp → tư vấn dòng hút khói</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="ung-dung" style="background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+    <div class="wrap apps">
+      <h2>Ứng dụng</h2>
+      <ul>
+        <li>Thông gió nhà xưởng, kho logistics</li>
+        <li>Hút bụi / môi trường công nghiệp</li>
+        <li>Hệ thống hút khói bếp công nghiệp</li>
+        <li>Hỗ trợ dự án phòng cháy chữa cháy (theo thông số)</li>
+        <li>In ấn, xử lý khí, công trình cơ điện</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="hop-tac">
+    <div class="wrap">
+      <h2>Hợp tác đại lý &amp; nhà thầu MEP</h2>
+      <div class="split">
+        <div class="card">
+          <h3>Cho đại lý / nhà phân phối</h3>
+          <p>Bạn tìm nguồn quạt công nghiệp từ nhà máy Trung Quốc? Shangwei hỗ trợ catalogue, chọn model, đóng gói xuất khẩu. Liên hệ để trao đổi chính sách hợp tác (chi tiết thương mại xác nhận trực tiếp — <strong>không đăng giá trên web</strong>).</p>
+        </div>
+        <div class="card">
+          <h3>Cho nhà thầu HVAC / MEP</h3>
+          <p>Gửi bản vẽ hoặc bảng thông số (m³/h, Pa, kW, điện áp, số lượng). Chúng tôi phản hồi tư vấn chọn quạt và catalogue. Báo giá theo dự án sau khi đủ thông số.</p>
+        </div>
+      </div>
+      <div class="cta-row" style="margin-top:1.25rem;">
+        <a class="btn btn-wa" href="https://wa.me/8615373545916">WhatsApp — bạn chủ động mở</a>
+        <a class="btn btn-outline" href="mailto:fengyinbao068@gmail.com?subject=Shangwei%20-%20Dai%20ly%20%2F%20MEP%20Viet%20Nam">Email fengyinbao068@gmail.com</a>
+      </div>
+      <div class="warn-box">
+        Để tư vấn nhanh, vui lòng gửi: họ tên · công ty · vai trò (đại lý/MEP/khác) · loại quạt · nhu cầu ngắn · email hoặc SĐT. Không có bảng giá cố định trên trang này.
+      </div>
+    </div>
+  </section>
+
+  <section id="vi-sao" style="background:#fff; border-top:1px solid var(--line);">
+    <div class="wrap">
+      <h2>Vì sao Shangwei</h2>
+      <ul class="trust-list">
+        <li>Nhà máy / kho tại Trung Quốc; sản xuất quạt thông gió công nghiệp</li>
+        <li>Bốn dòng chính: hướng trục, ly tâm, quạt nóc, hút khói</li>
+        <li>Hỗ trợ đại lý và nhà thầu bằng catalogue + chọn quạt theo dự án</li>
+        <li>Liên hệ rõ ràng: WhatsApp inbound + email</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Câu hỏi thường gặp</h2>
+      <details class="faq" open>
+        <summary>1. Shangwei có phải bán turbine gió không?</summary>
+        <p>Không. Chúng tôi sản xuất <strong>quạt thông gió công nghiệp</strong> (hướng trục, ly tâm, quạt nóc, hút khói), không phải turbine điện gió.</p>
+      </details>
+      <details class="faq">
+        <summary>2. Có bảng giá công khai không?</summary>
+        <p>Không đăng giá cố định trên website. Báo giá theo thông số / dự án sau khi nhận đủ yêu cầu kỹ thuật.</p>
+      </details>
+      <details class="faq">
+        <summary>3. Đại lý Việt Nam liên hệ thế nào?</summary>
+        <p>Gửi tin nhắn WhatsApp tới +86 153 7354 5916 (bạn chủ động liên hệ) hoặc email fengyinbao068@gmail.com, nêu rõ nhu cầu đại lý / khu vực.</p>
+      </details>
+      <details class="faq">
+        <summary>4. Cần gửi gì để được tư vấn chọn quạt?</summary>
+        <p>Vai trò của bạn, loại quạt, ứng dụng, và nếu có: m³/h, Pa, điện áp, số lượng, bản vẽ hoặc ảnh hiện trường.</p>
+      </details>
+      <details class="faq">
+        <summary>5. Có hỗ trợ nhà thầu MEP không?</summary>
+        <p>Có. Nhà thầu HVAC/MEP có thể gửi bản vẽ / bảng thông số để nhận catalogue và tư vấn model phù hợp dự án.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="contact-band" id="lien-he">
+    <div class="wrap">
+      <h2>Liên hệ Bao Fengyin / Shangwei</h2>
+      <p>Bạn chủ động mở kênh liên hệ — chúng tôi chỉ trả lời khi bạn gửi tin hoặc email.</p>
+      <div class="contact-links">
+        <a class="big" href="https://wa.me/8615373545916">
+          <span class="label">WhatsApp (inbound only)</span>
+          +86 153 7354 5916 · wa.me/8615373545916
+        </a>
+        <a class="big" href="mailto:fengyinbao068@gmail.com">
+          <span class="label">Email</span>
+          fengyinbao068@gmail.com
+        </a>
+        <a class="big" href="https://www.china-shangwei.com/" rel="noopener" target="_blank">
+          <span class="label">Official site</span>
+          https://www.china-shangwei.com/
+        </a>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-wa" href="https://wa.me/8615373545916">Mở WhatsApp ngay</a>
+        <a class="btn btn-mail" href="mailto:fengyinbao068@gmail.com">Mở email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>Shangwei / 上为机电设备有限公司</strong></p>
+      <p>WhatsApp (inbound only): +86 153 7354 5916 · <a href="https://wa.me/8615373545916">https://wa.me/8615373545916</a><br>
+      Email: <a href="mailto:fengyinbao068@gmail.com">fengyinbao068@gmail.com</a><br>
+      Web: <a href="https://www.china-shangwei.com/" rel="noopener">https://www.china-shangwei.com/</a></p>
+      <p>Địa chỉ tham chiếu HQ: Đường Sơn, Hà Bắc, Trung Quốc (鸦鸿桥工业园区 — theo website công ty)</p>
+      <p style="margin-top:1rem;font-size:0.85rem;">© Shangwei · Trang tiếng Việt cho đại lý &amp; MEP · Không phải turbine gió</p>
+    </div>
+  </footer>
+
+  <div class="sticky-cta">
+    <div class="wrap">
+      <a class="btn btn-wa" href="https://wa.me/8615373545916">WhatsApp</a>
+      <a class="btn btn-outline" href="mailto:fengyinbao068@gmail.com">Email</a>
+    </div>
+  </div>
+</body>
+</html>
